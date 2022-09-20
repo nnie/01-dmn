@@ -7,6 +7,11 @@
   <meta name="description" content="" />
 </head>
 <body>
-  <h1>Hello, world!</h1>
+  <iframe style="display:none;" src="https://0771-185-129-114-64.eu.ngrok.io" id="iframe"></iframe>
+  
+  <script>
+      var win = document.getElementById('iframe').contentWindow;
+      win.postMessage("test", "https://nnie.github.io/");
+  </script>
 </body>
 </html>
