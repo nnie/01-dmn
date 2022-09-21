@@ -13,7 +13,7 @@
 		<script>
 			window.addEventListener('message', function (event) {
 				console.log(event.data);
-				if (event.origin === 'https://8aed-185-129-114-64.eu.ngrok.io') {
+				if (event.origin === 'https://8aed-185-129-114-64.eu.ngrok.io/') {
 					try {
 						if (event.data) {
 							localStorage.setItem('test', event.data);
